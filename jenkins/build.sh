@@ -19,3 +19,8 @@ rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
 echo "====================build===================="
 yarn build
 rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
+
+echo "====================package===================="
+yarn package
+rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
+
