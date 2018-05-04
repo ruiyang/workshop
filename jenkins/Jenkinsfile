@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    stages {
+        stage('Env') {
+            steps {
+                sh "env | sort"
+            }
+        }
+        stage('GitBuild') {
+            steps {
+                git 'https://github.com/ruiyang/react_demo'
+            }
+        }
+
+    }
+}

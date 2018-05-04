@@ -30,5 +30,3 @@ Please use the following password to proceed to installation:
   - click install
   - create your admin user once installation finishes
   - click "Read to use" botton to start using Jenkins
-  - go to Manage Plugin in jenkins
-  - in Avaliable tab, select npm and install without restart
