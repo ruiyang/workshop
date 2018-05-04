@@ -30,3 +30,7 @@ Please use the following password to proceed to installation:
   - click install
   - create your admin user once installation finishes
   - click "Read to use" botton to start using Jenkins
+  - execute
+  ```shell
+  ./build-react.sh
+  ```
